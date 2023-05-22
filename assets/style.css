@@ -40,6 +40,12 @@ html{
     margin-left: -8px;
 }
 
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .col{
     float: left;
     padding-right: 8px;
@@ -58,6 +64,13 @@ html{
     width: 50%;
 }
 
+.mt-8{
+    margin-top: 8px !important;
+}
+
+.mt-16{
+    margin-top: 16px !important;
+}
 
 /* Main  */
 #main{
@@ -472,6 +485,7 @@ html{
 
 .contact-info{
     font-size: 18px;
+    line-height: 1.5;
 }
 
 .contact-info i[class*="ti-"]{
@@ -479,6 +493,25 @@ html{
     display: inline-block;
 }
 
+.contact-form{
+    font-size: 15px;
+}
+
+.contact-form .form-control{
+    padding: 11px;
+    border: 1px solid #ccc;
+    width: 100%;
+    outline: none;
+}
+
+.contact-form .form-submit-btn{
+    font-size: 15px;
+    color: #fff;
+    background-color: #000;
+    padding: 9px 13px;
+    border: none;
+    float: right;
+}
 
 #footer{
 
