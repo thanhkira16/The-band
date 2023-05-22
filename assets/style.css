@@ -32,7 +32,11 @@ html{
 }
 
 .text-center{
-    text-align: center;
+    text-align: center !important;
+}
+
+.pull-right{
+    float: right;
 }
 
 .row{
@@ -70,6 +74,22 @@ html{
 
 .mt-16{
     margin-top: 16px !important;
+}
+
+.btn{
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #000;
+    background-color: #ccc;
 }
 
 /* Main  */
@@ -350,20 +370,6 @@ html{
     line-height: 1.4;
 }
 
-.place-buy-btn{
-    color: #fff;
-    background: #000;
-    text-decoration: none;
-    padding: 11px 16px;
-    display: inline-block;
-    margin-top: 16px;
-    border: none;
-}
-
-.place-buy-btn:hover{
-    color: #000;
-    background-color: #ccc;
-}
 
 
 /* End Tour section  */
@@ -504,14 +510,6 @@ html{
     outline: none;
 }
 
-.contact-form .form-submit-btn{
-    font-size: 15px;
-    color: #fff;
-    background-color: #000;
-    padding: 9px 13px;
-    border: none;
-    float: right;
-}
 
 #footer{
 
