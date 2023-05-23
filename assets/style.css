@@ -7,6 +7,7 @@
 
 html{
     font-family:Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* 
@@ -245,7 +246,7 @@ html{
 
 #content .content-section{
     width: 800px;
-    padding: 64px 0;
+    padding: 64px 0 112px;
     margin: 0 auto;
 }
 
@@ -336,7 +337,6 @@ html{
 
 .places-list{
     margin-top: 32px;
-    margin-bottom:48px;
 }
 
 
@@ -511,7 +511,41 @@ html{
 }
 
 
+/* Map section  */
+.map-section img{
+    width: 100%;
+}
+
+
 #footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+
+.socials-list i[class*="ti-"]{
+    font-size: 24px;
 
 }
 
+#footer .socials-list a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+#footer .copyright a:hover,
+#footer .socials-list a:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#footer .socials-list{
+    display: inline-block;
+    text-decoration: none;
+}
+
+#footer .copyright{
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyright a{
+    color: rgba(0, 0, 0, 0.6);
+}   
